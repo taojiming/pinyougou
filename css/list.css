@@ -1,0 +1,163 @@
+/* 列表页样式 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?3a2xdr');
+    src: url('../fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?3a2xdr') format('truetype'), url('../fonts/icomoon.woff?3a2xdr') format('woff'), url('../fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.sk {
+    position: absolute;
+    left: 202px;
+    top: 44px;
+    border-left: 2px solid #b1191a;
+    padding: 3px 0 2px 14px;
+}
+.sk_bd ul {
+    width: 1212px;
+}
+.sk_goods {
+    position: relative;
+    margin: 0 12px 15px 0;
+    border: 1px solid transparent;
+}
+.sk_goods:hover {
+    border: 1px solid #e12228;
+}
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    padding: 0 30px;
+    width: 63px;
+    height: 30px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a {
+    padding: 0 20px;
+    width: 63px;
+    height: 30px;
+    line-height: 47px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\ea51';
+    font-family: icomoon;
+}
+
+.sk_bd ul li {
+    width: 290px;
+    height: 460px;
+}
+.sk_bd .sk_goods_title {
+    padding: 0 8px 7px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666666;
+}
+.sk_goods_price {
+    padding: 0 8px 7px;
+}
+
+.sk_goods_price em{
+    margin-right: 10px;
+    color: #e60012;
+    font-size: 22px;
+}
+.sk_goods_price del {
+    font-size: 14px;
+    color: #b9b9b9;
+}
+
+.sk_goods_progress {
+    padding: 0 8px;
+    font-size: 14px;
+    color: #808080;
+}
+
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    margin: 0 3px;
+    border: 1px solid #b1191a;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bar_in {
+    width: 87%;
+    height: 10px;
+    background-color: #f24349;
+}
+
+.sk_goods_progress i {
+    color: #e55356;
+}
+
+.sk_goods_buy {
+    position: absolute;
+    bottom: 0;
+    width: 290px;
+    height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.sk_goods {
+    float: left;
+}
+
+.page {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.page_nums a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.page_nums .pg_prev, .page_nums .pg_next {
+    width: 83px;
+}
+.page_nums .dotted,
+.page_nums .current {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.page_skip input {
+    width: 46px;
+    height: 36px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: all 0.5;
+}
+.page_skip input:focus {
+    width: 88px;
+    border: 1px solid skyblue;
+}
+.page_skip button {
+    width: 54px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
