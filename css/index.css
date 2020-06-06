@@ -302,3 +302,25 @@
     width: 220px;
     border-right: 2px solid #ededed;
 }
+
+.fixedtool {
+    position: fixed;
+    top: 350px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+}
+
+.fixedtool ul li {
+    width: 66px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}

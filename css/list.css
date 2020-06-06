@@ -6,11 +6,6 @@
     font-weight: normal;
     font-style: normal;
 }
-.clearfix:after{
-    content: '';
-    display: block;
-    clear: both;
-}
 .sk {
     position: absolute;
     left: 202px;

@@ -7,7 +7,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 /* 版心 */
 
 .w {
@@ -17,7 +16,6 @@
 
 .fl {
     float: left;
-    display: flex;
 }
 
 .fr {
